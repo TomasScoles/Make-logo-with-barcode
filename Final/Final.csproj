@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>functions.ico</ApplicationIcon>
+	  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="functions.ico" />
+  </ItemGroup>
+    
+    <ItemGroup>
+		<PackageReference Include="System.Data.Sqlclient" Version="4.8.3"></PackageReference>
+	</ItemGroup>
+
+</Project>
